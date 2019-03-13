@@ -5,4 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.springmvc"/>
+    <bean id="person" class="com.springmvc.controller.Person">
+        <property name="name" value="zhangsan"></property>
+        <property name="age"  value="18"></property>
+    </bean>
 </beans>
